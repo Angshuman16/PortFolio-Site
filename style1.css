@@ -1,0 +1,411 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+.sidebar{
+    background-color:black;
+    /* width:181px; */
+    font-family: 'PT Serif', serif;
+    height: 110vh;
+    transition: transform 0.2s ease-in;
+
+}
+.sidebar nav{
+    padding: 45px;
+    color:white;
+    font-weight: bold;
+    
+
+}
+.infocontainer{
+    
+    height: 68vh;
+    width:80vw;
+    padding-left: 60px;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display:flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    margin-right: 470px;
+    color: white;
+}
+.hello{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    
+
+}
+.name{
+    font-size:38px; 
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    
+    
+}
+.about{
+    font-size:15px;
+    
+}
+.more{
+    font-size:15px;
+    margin-top: 18px;
+    font-family: 'PT Serif', serif;
+
+}
+.buttons{
+    margin-top:34px;
+
+}
+.btn{
+    border-radius: 26px;
+    padding: 9px 14px;
+    color: white;
+    background-color: orangered;
+    font-weight: bold;
+    font-size: 14px;
+    margin:0 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    color: orangered;
+    background-color: white;
+
+}
+.btn-sb{
+    font-size: 12px;
+}
+
+
+
+.devpic img{
+    height:68vh;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 17px;
+    padding: 40px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.main{
+    /*background-color: red;*/
+    width:100%;
+    height: 110vh;
+
+    background-image: url(images/final_back.png);
+    background-size: cover;
+    
+   
+}
+.cont{
+    display: flex;
+}
+
+.contactform{
+
+    font-family: 'PT Serif', serif;
+    padding-top: 140px;
+    padding: 67px 74px;
+
+}
+
+.contactform h1{
+
+    font-family: 'Titillium Web', sans-serif; 
+    color:orangered;
+   
+
+     
+}
+/* .cross {
+ padding: 30px;
+} */
+
+
+
+.contactform form div{
+    padding: 8px 0;
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.contactform form div input{
+    width: 23vw;
+    border-radius: 4px;
+    
+   
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#about{
+    font-family: 'PT Serif', serif;
+    padding-right: 12px;
+}
+
+span{
+    color:orangered;
+}
+
+
+
+#emailHelp{
+    font-size: 11px;
+    color: rgb(72, 72, 207);
+    margin: 0 5px;
+    padding:3px 0 0 0;
+    font-weight: bold;
+    color: greenyellow;
+    font-size: 15px;
+}
+
+#form-check{
+    flex-direction: row;
+    color: greenyellow;
+    font-size: 15px;
+    
+}
+
+#form-check input{
+   
+    width:20px;
+    margin: 3px 0;
+    color: orangered;
+    font-size: 15px;
+}
+
+.intro h2{
+  margin:50px;
+  font-family: 'PT Serif', serif;
+  color: orangered;
+}
+
+.intro p{
+  margin:50px;
+  font-family: 'Source Code Pro', monospace; 
+ 
+  font-weight:bold;
+  padding-right: 332px;
+    color: white;
+}
+
+.skill{
+    width: 242px;
+    height: 19px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    border:2px solid black;
+
+
+}
+.hundred{
+    width:242px;
+    background-color: red;
+}
+
+.fifty{
+    width:125px;
+    background-color: aqua;
+}
+
+.t5{
+    width:73px;
+    background-color:greenyellow;
+}
+
+
+.contactform .infos img{
+    width:29px;
+    padding-top: 12px;
+    padding-left: 5px;
+    border-radius: 9px;
+    
+
+} 
+.contactform h4{
+    color:white;
+}
+
+.card-img-top{
+    width:40px;
+}
+.service-logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:-90px auto 0;
+    background: #fff;
+    border:18px solid rgb(39, 1, 64);
+
+}
+.service-logo img{
+    width:30px;
+    margin-top:20px;
+}
+
+.main .servcontainer h1{
+    text-align: center;
+    color:white;
+    margin: 32px auto 120px;
+    font-family: 'Titillium Web', sans-serif; 
+    font-weight: bold;
+}
+.main-service
+{
+    width:100%;
+    min-height: 380px;
+    text-align: center;
+    position:relative;
+    cursor: pointer;
+}
+ .kaam{
+    background-color: white;
+    padding:30px;
+    border-radius: 10px;
+   position:absolute;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 0 0 20px -15px orangered;
+}
+.press{
+    padding:8px;
+    color:white;
+    background-color:orangered;
+    border-radius: 15px;
+    font-weight: bold;
+   
+}
+
+.press:hover{
+    color: orangered;
+    background-color: white;
+}
+
+.kaam h4{
+    height:30px;
+    width: 80%;
+    background: #fff;
+    margin:50px auto;
+    position: relative; 
+   
+}
+
+
+.kaam h4::after{
+    content:'';
+    width:23px;
+    height:18px;
+    background: linear-gradient(to right,#fff,orangered);
+    position: absolute;
+    right:-5px;
+    top:-5px;
+    z-index:-1;
+}
+
+.kaam h4::before{
+    content:'';
+    width:23px;
+    height:30px;
+    background: linear-gradient(to right,orangered,white);
+    position: absolute;
+    left:-5px;
+    bottom:-5px;
+    z-index:-1;
+}
+
+.shadowone{
+    height:200px;
+    width:80%;
+    background:white;
+    position:absolute;
+    border-radius:10px;
+    bottom:0;
+    left:10%;
+    z-index:-1;
+    box-shadow: 0 0 20px -15px orangered;
+}
+
+.shadowtwo{
+    height:200px;
+    width:60%;
+    background:white;
+    position:absolute;
+    border-radius:10px;
+    bottom:0;
+    left:18%;
+    z-index:-2 ;
+   
+}
+
+.main-service:hover .kaam{
+    transform: translateY(-50px);
+
+}
+.main-service:hover .shadowone{
+    transform: translateY(-25px);
+
+}
+
+
+.skillcontainer{
+    padding-left: 15px;
+    
+}
+.skillitem{
+    display:flex;
+    align-items: center;
+    padding: 12px;
+    color: greenyellow;
+}
+.sidebar-go{
+    transform: translate(-443px,0px);
+    position: absolute;
+
+}
+
+@media (max-width: 886px) {
+
+/* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+} */
+.main{
+    width:100vw;
+    height: 100vh;
+}
+
+
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:15px;
+    left:10px;
+    
+}
+
+.cross{
+    margin-left: 98px;
+}
