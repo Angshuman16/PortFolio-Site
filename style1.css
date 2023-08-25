@@ -7,10 +7,12 @@
     padding:0;
 }
 .sidebar{
-    background-color:black;
-    /* width:181px; */
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    width:205px; 
     font-family: 'PT Serif', serif;
-    height: 110vh;
+    height: 150vh;
     transition: transform 0.2s ease-in;
 
 }
@@ -21,6 +23,11 @@
     
 
 }
+.imageclass{
+    flex:1;
+    
+}
+
 .infocontainer{
     
     height: 68vh;
@@ -30,17 +37,43 @@
     display: flex;
     justify-content: space-around;
 }
+
 .devinfo{
     display:flex;
+    flex:1;
    justify-content: center;
     flex-direction: column;
-    font-family: 'Titillium Web', sans-serif;
-    margin-right: 470px;
+    margin-right: auto;
     color: white;
 }
+
+.tech-stack{
+    display: flex;
+   
+    align-items: center;
+}
+.tech-stack ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+.links img{
+    display: flex;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding: 4px;
+    max-width:35px;
+    height:35px;
+
+}
+
+
 .hello{
     font-size: 40px;
-    color: white;
+    color: black;
     font-weight: bolder;
     
 
@@ -49,6 +82,7 @@
     font-size:38px; 
     font-weight: bold;
     font-family: 'PT Serif', serif;
+    color: black;
     
     
 }
@@ -60,6 +94,7 @@
     font-size:15px;
     margin-top: 18px;
     font-family: 'PT Serif', serif;
+    color: blue;
 
 }
 .buttons{
@@ -106,16 +141,40 @@
 }
 .main{
     /*background-color: red;*/
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+
     width:100%;
     height: 110vh;
 
-    background-image: url(images/final_back.png);
+    /* background-image: url(images/final_back.png); */
     background-size: cover;
     
    
 }
+
+.profilepic{
+    max-width: 20rem;
+    height:20rem;
+    padding-top: 6vh;
+}
+.abt{
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+    
+
+
+
+
 .cont{
     display: flex;
+    
 }
 
 .contactform{
@@ -195,25 +254,45 @@ span{
     font-size: 15px;
 }
 
+.intro{
+    flex: 1;
+    padding: 20px;
+    margin-right:18rem;
+    
+}
+.image{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    max-width: 100%;
+}
+
+
+
+
+
 .intro h2{
+   
   margin:50px;
   font-family: 'PT Serif', serif;
   color: orangered;
 }
 
 .intro p{
+    
   margin:50px;
   font-family: 'Source Code Pro', monospace; 
- 
   font-weight:bold;
   padding-right: 332px;
-    color: white;
+    color: black;
 }
 
 .skill{
     width: 242px;
     height: 19px;
-    background-color: chartreuse;
+    background-color: black;
     border-radius: 5px;
     border:2px solid black;
 
