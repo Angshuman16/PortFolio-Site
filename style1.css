@@ -12,7 +12,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
     width:205px; 
     font-family: 'PT Serif', serif;
-    height: 150vh;
+    height: 110vh;
     transition: transform 0.2s ease-in;
 
 }
@@ -49,6 +49,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
 .tech-stack{
     display: flex;
+    padding-top: 6px;
    
     align-items: center;
 }
@@ -86,12 +87,119 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     
     
 }
+
+/* .service-container {
+    flex:1;
+    width: 22rem;
+    
+    height: 30rem;
+    padding: 8px;
+    margin:20px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-container:hover{
+    
+} */
+
+
+/* .icon img {
+    width: 26rem;
+    height: 18rem;
+    
+
+} */
+
+
+.card {
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 19px;
+    overflow: hidden;
+    padding: 4px;
+    margin: 13px;
+   
+    height: 60vh;
+    width: 23rem;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    
+
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 2px;
+    text-align: center;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 5rem;
+  }
+
+.container{
+    display: flex;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 20px;
+
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+}
+
 .about{
     font-size:15px;
     
 }
 .more{
-    font-size:15px;
+    font-size:20px;
     margin-top: 18px;
     font-family: 'PT Serif', serif;
     color: blue;
@@ -163,9 +271,13 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     width: 100%;
     height: 110vh;
     background-size: cover;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
     align-items: center;
     justify-content: flex-end;
     padding: 20px;
+    display: flex;
 }
     
 
@@ -189,19 +301,22 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
     font-family: 'Titillium Web', sans-serif; 
     color:orangered;
-   
-
-     
+  
 }
 /* .cross {
  padding: 30px;
 } */
 
+.h4tag{
+    color: black;
+
+}
+
 
 
 .contactform form div{
     padding: 8px 0;
-    color:white;
+    color:black;
 
     display: flex;
     flex-direction: column;
@@ -235,13 +350,13 @@ span{
     margin: 0 5px;
     padding:3px 0 0 0;
     font-weight: bold;
-    color: greenyellow;
+    color: orangered;
     font-size: 15px;
 }
 
 #form-check{
     flex-direction: row;
-    color: greenyellow;
+    color: orangered;
     font-size: 15px;
     
 }
@@ -256,17 +371,24 @@ span{
 
 .intro{
     flex: 1;
-    padding: 20px;
-    margin-right:18rem;
+    padding: 13px;
+
+
     
 }
+
+
+ /* .intro p{
+    width: 12rem;
+   
+}  */
 .image{
     flex:1;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-    padding: 20px;
-    max-width: 100%;
+    max-width: 50%;
+    
 }
 
 
@@ -276,6 +398,7 @@ span{
 .intro h2{
    
   margin:50px;
+  margin-bottom: 2px;
   font-family: 'PT Serif', serif;
   color: orangered;
 }
@@ -283,10 +406,11 @@ span{
 .intro p{
     
   margin:50px;
-  font-family: 'Source Code Pro', monospace; 
-  font-weight:bold;
-  padding-right: 332px;
-    color: black;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 20px;
+  
+  padding-right:auto;
+    color:blue;
 }
 
 .skill{
@@ -313,6 +437,45 @@ span{
     background-color:greenyellow;
 }
 
+.contactform{
+    display: flex;
+
+}
+#connect{
+    margin-left: 19rem;
+    padding: 18px;
+    font-size: 15px;
+}
+
+.navigation ul li a{
+    
+    color: black;
+    
+}
+
+.navigation ul li a:hover{
+    color: white;
+}
+
+
+
+.pic{
+    flex:1;
+
+}
+.pic img{
+    max-width: 20rem;
+    padding: -18rem;
+    margin: 4rem;
+}
+
+.formcontainer{
+    flex:1;
+}
+
+
+
+
 
 .contactform .infos img{
     width:29px;
@@ -323,7 +486,7 @@ span{
 
 } 
 .contactform h4{
-    color:white;
+    color:black;
 }
 
 .card-img-top{
@@ -343,9 +506,10 @@ span{
     margin-top:20px;
 }
 
+
 .main .servcontainer h1{
     text-align: center;
-    color:white;
+    color:black;
     margin: 32px auto 120px;
     font-family: 'Titillium Web', sans-serif; 
     font-weight: bold;
@@ -448,8 +612,11 @@ span{
 
 
 .skillcontainer{
-    padding-left: 15px;
+    padding-left: 15rem;
     
+}
+.skillcontainer{
+    margin-left: 25px;
 }
 .skillitem{
     display:flex;
